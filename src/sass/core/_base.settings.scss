@@ -1,0 +1,7 @@
+$environment-modes: (
+    development: 0,
+    staging: 1,
+    production: 2
+);
+
+$environment-mode: map-get($map: $environment-modes, $key: development);
